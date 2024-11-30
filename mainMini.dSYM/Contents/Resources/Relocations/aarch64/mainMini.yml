@@ -1,0 +1,18 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/blueturtle/Desktop/alto''s_game/output/mainMini'
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _initScreen, symObjAddr: 0x0, symBinAddr: 0x100003644, symSize: 0x120 }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _contHeight, symObjAddr: 0x19DC, symBinAddr: 0x10000800C, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _plr, symObjAddr: 0x898, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0xBE, offset: 0xBE, size: 0x8, addend: 0x0, symName: _screen, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _initScreen, symObjAddr: 0x0, symBinAddr: 0x100003644, symSize: 0x120 }
+  - { offsetInCU: 0x10B, offset: 0x10B, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x120, symBinAddr: 0x100003764, symSize: 0x1C }
+  - { offsetInCU: 0x120, offset: 0x120, size: 0x8, addend: 0x0, symName: _printScreen, symObjAddr: 0x13C, symBinAddr: 0x100003780, symSize: 0xC4 }
+  - { offsetInCU: 0x144, offset: 0x144, size: 0x8, addend: 0x0, symName: _drawPlayer, symObjAddr: 0x200, symBinAddr: 0x100003844, symSize: 0x90 }
+  - { offsetInCU: 0x159, offset: 0x159, size: 0x8, addend: 0x0, symName: _initTerrains, symObjAddr: 0x290, symBinAddr: 0x1000038D4, symSize: 0x16C }
+  - { offsetInCU: 0x1C3, offset: 0x1C3, size: 0x8, addend: 0x0, symName: _scrollTerrain, symObjAddr: 0x3FC, symBinAddr: 0x100003A40, symSize: 0x26C }
+  - { offsetInCU: 0x281, offset: 0x281, size: 0x8, addend: 0x0, symName: _enableNonBlockingMode, symObjAddr: 0x668, symBinAddr: 0x100003CAC, symSize: 0xC4 }
+  - { offsetInCU: 0x2B3, offset: 0x2B3, size: 0x8, addend: 0x0, symName: _disableNonBlockingMode, symObjAddr: 0x72C, symBinAddr: 0x100003D70, symSize: 0xC4 }
+  - { offsetInCU: 0x2E5, offset: 0x2E5, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x7F0, symBinAddr: 0x100003E34, symSize: 0xA8 }
+...
