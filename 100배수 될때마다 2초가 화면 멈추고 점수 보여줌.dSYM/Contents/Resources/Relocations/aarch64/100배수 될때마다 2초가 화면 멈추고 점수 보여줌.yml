@@ -1,0 +1,44 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     "/Users/blueturtle/Desktop/alto's_game/output/100배수 될때마다 2초가 화면 멈추고 점수 보여줌"
+relocations:
+  - { offsetInCU: 0x26, offset: 0x26, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100001F38, symSize: 0x1C }
+  - { offsetInCU: 0x3F, offset: 0x3F, size: 0x8, addend: 0x0, symName: _contHeight, symObjAddr: 0x511C, symBinAddr: 0x100008040, symSize: 0x0 }
+  - { offsetInCU: 0x5B, offset: 0x5B, size: 0x8, addend: 0x0, symName: _score, symObjAddr: 0x5120, symBinAddr: 0x100008044, symSize: 0x0 }
+  - { offsetInCU: 0x70, offset: 0x70, size: 0x8, addend: 0x0, symName: _contObs, symObjAddr: 0x5124, symBinAddr: 0x100008048, symSize: 0x0 }
+  - { offsetInCU: 0x85, offset: 0x85, size: 0x8, addend: 0x0, symName: _obsCnt, symObjAddr: 0x5128, symBinAddr: 0x10000804C, symSize: 0x0 }
+  - { offsetInCU: 0x9A, offset: 0x9A, size: 0x8, addend: 0x0, symName: _obsColltime, symObjAddr: 0x512C, symBinAddr: 0x100008050, symSize: 0x0 }
+  - { offsetInCU: 0xAF, offset: 0xAF, size: 0x8, addend: 0x0, symName: _isJumping, symObjAddr: 0x5130, symBinAddr: 0x100008054, symSize: 0x0 }
+  - { offsetInCU: 0xC4, offset: 0xC4, size: 0x8, addend: 0x0, symName: _jumpHeight, symObjAddr: 0x5134, symBinAddr: 0x100008058, symSize: 0x0 }
+  - { offsetInCU: 0xD9, offset: 0xD9, size: 0x8, addend: 0x0, symName: _currentDifficulty, symObjAddr: 0x5138, symBinAddr: 0x10000805C, symSize: 0x0 }
+  - { offsetInCU: 0xEE, offset: 0xEE, size: 0x8, addend: 0x0, symName: _isPaused, symObjAddr: 0x513C, symBinAddr: 0x100008060, symSize: 0x0 }
+  - { offsetInCU: 0x103, offset: 0x103, size: 0x8, addend: 0x0, symName: _scoreDisplayTimer, symObjAddr: 0x5140, symBinAddr: 0x100008064, symSize: 0x0 }
+  - { offsetInCU: 0x118, offset: 0x118, size: 0x8, addend: 0x0, symName: _flashTimer, symObjAddr: 0x5144, symBinAddr: 0x100008068, symSize: 0x0 }
+  - { offsetInCU: 0x12D, offset: 0x12D, size: 0x8, addend: 0x0, symName: _flashState, symObjAddr: 0x1DFC, symBinAddr: 0x100008000, symSize: 0x0 }
+  - { offsetInCU: 0x142, offset: 0x142, size: 0x8, addend: 0x0, symName: _plr, symObjAddr: 0x1E00, symBinAddr: 0x100008004, symSize: 0x0 }
+  - { offsetInCU: 0x192, offset: 0x192, size: 0x8, addend: 0x0, symName: _obsList, symObjAddr: 0x1E0C, symBinAddr: 0x100008010, symSize: 0x0 }
+  - { offsetInCU: 0x1F4, offset: 0x1F4, size: 0x8, addend: 0x0, symName: _screen, symBinAddr: 0x100008078, symSize: 0x0 }
+  - { offsetInCU: 0x21B, offset: 0x21B, size: 0x8, addend: 0x0, symName: _currentObs, symBinAddr: 0x10000806C, symSize: 0x0 }
+  - { offsetInCU: 0x230, offset: 0x230, size: 0x8, addend: 0x0, symName: _topScore, symBinAddr: 0x100008784, symSize: 0x0 }
+  - { offsetInCU: 0x26E, offset: 0x26E, size: 0x8, addend: 0x0, symName: _clearScreen, symObjAddr: 0x0, symBinAddr: 0x100001F38, symSize: 0x1C }
+  - { offsetInCU: 0x283, offset: 0x283, size: 0x8, addend: 0x0, symName: _printScreen, symObjAddr: 0x1C, symBinAddr: 0x100001F54, symSize: 0xF0 }
+  - { offsetInCU: 0x2A7, offset: 0x2A7, size: 0x8, addend: 0x0, symName: _checkCollision, symObjAddr: 0x10C, symBinAddr: 0x100002044, symSize: 0xFC }
+  - { offsetInCU: 0x2C0, offset: 0x2C0, size: 0x8, addend: 0x0, symName: _drawPlayer, symObjAddr: 0x208, symBinAddr: 0x100002140, symSize: 0x38 }
+  - { offsetInCU: 0x2D5, offset: 0x2D5, size: 0x8, addend: 0x0, symName: _physicPlayer, symObjAddr: 0x240, symBinAddr: 0x100002178, symSize: 0x218 }
+  - { offsetInCU: 0x2EA, offset: 0x2EA, size: 0x8, addend: 0x0, symName: _initTerrains, symObjAddr: 0x458, symBinAddr: 0x100002390, symSize: 0x168 }
+  - { offsetInCU: 0x354, offset: 0x354, size: 0x8, addend: 0x0, symName: _spawnTerrain, symObjAddr: 0x5C0, symBinAddr: 0x1000024F8, symSize: 0x48 }
+  - { offsetInCU: 0x398, offset: 0x398, size: 0x8, addend: 0x0, symName: _spawnObstacle, symObjAddr: 0x608, symBinAddr: 0x100002540, symSize: 0xA4 }
+  - { offsetInCU: 0x3EA, offset: 0x3EA, size: 0x8, addend: 0x0, symName: _shiftTerrain, symObjAddr: 0x6AC, symBinAddr: 0x1000025E4, symSize: 0x348 }
+  - { offsetInCU: 0x466, offset: 0x466, size: 0x8, addend: 0x0, symName: _scrollTerrain, symObjAddr: 0x9F4, symBinAddr: 0x10000292C, symSize: 0xDC }
+  - { offsetInCU: 0x4D0, offset: 0x4D0, size: 0x8, addend: 0x0, symName: _enableNonBlockingMode, symObjAddr: 0xAD0, symBinAddr: 0x100002A08, symSize: 0xC4 }
+  - { offsetInCU: 0x505, offset: 0x505, size: 0x8, addend: 0x0, symName: _disableNonBlockingMode, symObjAddr: 0xB94, symBinAddr: 0x100002ACC, symSize: 0xC4 }
+  - { offsetInCU: 0x53A, offset: 0x53A, size: 0x8, addend: 0x0, symName: _initIntro, symObjAddr: 0xC58, symBinAddr: 0x100002B90, symSize: 0x3B0 }
+  - { offsetInCU: 0x6BC, offset: 0x6BC, size: 0x8, addend: 0x0, symName: _initOuttro, symObjAddr: 0x1008, symBinAddr: 0x100002F40, symSize: 0x264 }
+  - { offsetInCU: 0x796, offset: 0x796, size: 0x8, addend: 0x0, symName: _initValues, symObjAddr: 0x126C, symBinAddr: 0x1000031A4, symSize: 0x60 }
+  - { offsetInCU: 0x7AC, offset: 0x7AC, size: 0x8, addend: 0x0, symName: _createSaveFileIfNotExists, symObjAddr: 0x12CC, symBinAddr: 0x100003204, symSize: 0xB0 }
+  - { offsetInCU: 0x7D2, offset: 0x7D2, size: 0x8, addend: 0x0, symName: _readScores, symObjAddr: 0x137C, symBinAddr: 0x1000032B4, symSize: 0xD8 }
+  - { offsetInCU: 0x816, offset: 0x816, size: 0x8, addend: 0x0, symName: _saveScore, symObjAddr: 0x1454, symBinAddr: 0x10000338C, symSize: 0x84 }
+  - { offsetInCU: 0x85A, offset: 0x85A, size: 0x8, addend: 0x0, symName: _sortScores, symObjAddr: 0x14D8, symBinAddr: 0x100003410, symSize: 0x17C }
+  - { offsetInCU: 0x8CA, offset: 0x8CA, size: 0x8, addend: 0x0, symName: _initScreen, symObjAddr: 0x1654, symBinAddr: 0x10000358C, symSize: 0x13C }
+  - { offsetInCU: 0x90E, offset: 0x90E, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x1790, symBinAddr: 0x1000036C8, symSize: 0x66C }
+...
